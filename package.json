@@ -1,10 +1,10 @@
 {
   "name": "vue3-tails",
-  "version": "0.1.0",
+  "version": "0.1.0-apla.1",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name vue3-tails src/index.js",
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
