@@ -1,15 +1,16 @@
 {
   "name": "vue3-tails",
   "version": "0.1.0-apla.1",
-  "private": true,
+  "main": "dist/vue3-tails.common.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name vue3-tails src/index.js",
-    "test:unit": "vue-cli-service test:unit"
+    "test:unit": "vue-cli-service test:unit",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^3.0.0"
+    "vue": "^3.0.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -20,6 +21,7 @@
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.2",
     "typescript": "~3.9.3",
+    "vitepress": "^0.6.0",
     "vue-jest": "^5.0.0-0"
   }
 }
