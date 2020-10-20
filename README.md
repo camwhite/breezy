@@ -5,7 +5,7 @@ _Vue 3 components based on tailwind inspired by [tails](https://devdojo.com/tail
 ## Installation
 
 ```bash
-# with yarh
+# with yarn
 yarn add breezy
 
 # with npm
