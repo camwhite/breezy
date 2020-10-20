@@ -1,13 +1,13 @@
 {
-  "name": "vue3-tails",
+  "name": "breezy",
   "version": "0.1.0-apla.1",
-  "main": "dist/vue3-tails.common.js",
   "scripts": {
-    "build": "vue-cli-service build --target lib --name vue3-tails src/index.js",
+    "build": "vue-cli-service build --target lib --name breezy src/index.js",
     "test:unit": "vue-cli-service test:unit",
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "docs:dev": "vitepress dev docs"
   },
+  "main": "dist/breezy.common.js",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^3.0.1"
