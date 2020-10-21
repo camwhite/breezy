@@ -1,3 +1,4 @@
+import 'tailwindcss/dist/tailwind.css'
 import DefaultTheme from 'vitepress/dist/client/theme-default'
 import Breezy from '/@breezy/index.js'
 import Browser from '../components/Browser.vue'

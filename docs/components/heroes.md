@@ -354,7 +354,7 @@ Try Our Service for Free
 <browser>
 <b-hero-minimal background="teal-700">
 <template v-slot:headline>
-<h1 class="relative z-20 font-sans text-4xl capitalize font-extrabold leading-none text-black sm:text-5xl xl:text-6xl sm:text-center lg:text-left">
+<h1 class="relative font-sans text-4xl capitalize font-extrabold leading-none text-black sm:text-5xl xl:text-6xl sm:text-center lg:text-left">
 <span class="relative">
 <span class="relative text-gray-800">Lorem Ipsum</span>
 </span>
@@ -374,7 +374,7 @@ ullamco laboris nisi ut aliquip ex ea commodo consequat.
 </template>
 <template v-slot:media>
 <div class="relative rounded-md">
-<img src="https://i.imgur.com/T2SW6Jc.png" class="z-10 object-cover w-full">
+<img src="https://i.imgur.com/T2SW6Jc.png" class="object-cover w-full">
 </div>
 </template>
 </b-hero-minimal>
@@ -384,7 +384,7 @@ ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 ```html
 <b-hero-minimal background="red-200">
-  <template v-slot:headline>
+  <template #headline>
     <h1
       class="relative z-20 font-sans text-4xl capitalize font-extrabold leading-none text-black sm:text-5xl xl:text-6xl sm:text-center lg:text-left"
     >
@@ -396,7 +396,7 @@ ullamco laboris nisi ut aliquip ex ea commodo consequat.
       >
     </h1>
   </template>
-  <template v-slot:content>
+  <template #content>
     <p class="relative mt-6 text-base text-gray-600 xl:text-lg">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
       sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -404,14 +404,14 @@ ullamco laboris nisi ut aliquip ex ea commodo consequat.
       ullamco laboris nisi ut aliquip ex ea commodo consequat.
     </p>
   </template>
-  <template v-slot:cta>
+  <template #cta>
     <button
       class="flex items-center self-start justify-center px-5 py-3 text-base font-medium leading-tight text-white bg-blue-800 border border-transparent rounded-lg shadow md:py-4 md:text-lg xl:text-xl md:px-10"
     >
       Come with us
     </button>
   </template>
-  <template v-slot:media>
+  <template #media>
     <div class="relative rounded-md">
       <img
         src="https://i.imgur.com/yydyGmG.jpg"

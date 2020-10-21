@@ -4,12 +4,13 @@
   "scripts": {
     "build": "vue-cli-service build --target lib --name breezy src/index.js",
     "test:unit": "vue-cli-service test:unit",
-    "docs:build": "vuepress build docs",
+    "docs:build": "vitepress build docs",
     "docs:dev": "vitepress dev docs"
   },
   "main": "dist/breezy.common.js",
   "dependencies": {
     "core-js": "^3.6.5",
+    "tailwindcss": "^1.9.5",
     "vue": "^3.0.1"
   },
   "devDependencies": {
