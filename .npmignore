@@ -1,0 +1,7 @@
+/docs
+/src
+postcss.config.js
+babel.config.js
+jest.config.js
+tailwind.config.js
+.browserslistrc

@@ -1,13 +1,14 @@
 {
-  "name": "breezy",
+  "name": "vue-breezy",
   "version": "0.1.0-apla.1",
   "scripts": {
-    "build": "vue-cli-service build --target lib --name breezy src/index.js",
+    "build": "vue-cli-service build --target lib --name vue-breezy src/index.js",
     "test:unit": "vue-cli-service test:unit",
     "docs:build": "vitepress build docs",
     "docs:dev": "vitepress dev docs"
   },
-  "main": "dist/breezy.common.js",
+  "license": "MIT",
+  "main": "dist/vue-breezy.common.js",
   "dependencies": {
     "core-js": "^3.6.5",
     "tailwindcss": "^1.9.5",

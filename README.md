@@ -6,17 +6,17 @@ _Vue 3 components based on tailwind inspired by [tails](https://devdojo.com/tail
 
 ```bash
 # with yarn
-yarn add breezy
+yarn add vue-breezy
 
 # with npm
-npm i -S breezy
+npm i -S vue-breezy
 ```
 
 <br />
 
 ```js
 import { createApp } from 'vue'
-import Breezy from 'breezy'
+import Breezy from 'vue-breezy'
 import App from './App'
 import './assets/tailwind.css'
 
