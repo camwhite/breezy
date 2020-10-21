@@ -7,12 +7,12 @@
       class="flex flex-col flex-col-reverse items-center justify-center p-10 mx-auto lg:flex-row lg:max-w-6xl lg:p-0"
     >
       <div
-        class="relative w-full pr-10 rounded-lg cursor-pointer md:w-2/3 lg:w-1/2 group"
+        class="relative w-full rounded-lg cursor-pointer md:px-6 md:w-2/3 lg:w-1/2 group"
       >
         <slot name="media"> </slot>
       </div>
       <div
-        class="container relative z-20 flex flex-col w-full px-5 pr-12 mb-16 text-2xl text-gray-700 lg:w-1/2 sm:px-0 md:px-10 sm:items-center lg:items-start lg:mb-0"
+        class="container relative flex flex-col w-full px-5 pr-12 mb-16 text-2xl text-gray-700 lg:w-1/2 sm:px-0 md:px-10 sm:items-center lg:items-start lg:mb-0"
       >
         <slot name="headline"> </slot>
         <slot name="content"> </slot>

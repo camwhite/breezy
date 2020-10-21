@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative flex flex-col items-center justify-center min-h-screen bg-cover min-w-screen"
+    class="relative flex flex-col items-center justify-center p-8 min-h-screen bg-cover min-w-screen"
     :class="[backgroundColor]"
   >
     <div
@@ -16,7 +16,7 @@
         </div>
       </div>
       <div
-        class="relative flex-grow w-full px-5 rounded-lg cursor-pointer md:w-2/3 lg:w-1/2 group xl:px-0"
+        class="relative w-full rounded-lg cursor-pointer md:w-2/3 lg:w-1/2"
       >
         <slot name="media"> </slot>
       </div>
