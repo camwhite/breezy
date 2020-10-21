@@ -26,3 +26,7 @@ createApp(App)
 ```
 
 Breezy requires tailwind to be [installed](https://tailwindcss.com/docs/installation) separately.
+
+## Examples
+
+Check the [docs](https://breezy.vercel.app) to see example components.
