@@ -124,7 +124,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ## Culture
 
 <browser>
-<b-hero-culture background="https://i.imgur.com/0hRUgjm.jpg">
+<b-hero-culture background="https://i.imgur.com/kbAjGBN.jpg">
 <template v-slot:headline>
 <h2 class="text-5xl capitalize text-white font-extrabold relative z-20 leading-tight">Lorem ipsum<br> dolor sit amet</h2>
 </template>
@@ -166,7 +166,7 @@ fill-rule="nonzero"
 </span>
 </div>
 <img
-src="https://i.imgur.com/dEPXkyl.jpg"
+src="https://i.imgur.com/2sHrsJb.jpg"
 class="w-full h-full object-cover"
 />
 </template>
@@ -415,7 +415,7 @@ ullamco laboris nisi ut aliquip ex ea commodo consequat.
     <div class="relative rounded-md">
       <img
         src="https://i.imgur.com/yydyGmG.jpg"
-        class="z-10 object-cover w-full h-50"
+        class="object-cover w-full h-50"
       />
     </div>
   </template>

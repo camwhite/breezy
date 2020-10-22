@@ -11,6 +11,9 @@ slot {
 }
 .browser-mockup {
   border-top: 2em solid rgba(230, 230, 230, 0.7);
+  border-bottom: 0.1em solid rgba(230, 230, 230, 0.7);
+  border-right: 0.1em solid rgba(230, 230, 230, 0.7);
+  border-left: 0.1em solid rgba(230, 230, 230, 0.7);
   position: relative;
   border-radius: 3px 3px 0 0;
 }

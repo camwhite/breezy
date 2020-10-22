@@ -2,6 +2,8 @@ const path = require('path')
 
 module.exports = {
   title: 'Breezy',
+  description:
+    'Vue 3 components based on tailwind inspired by tails',
   alias: {
     '/@breezy/': path.resolve(__dirname, '../../src')
   },
@@ -14,14 +16,12 @@ module.exports = {
         link: '/'
       },
       {
-        text: 'Components',
-        link: '/components/',
-        children: [
-          {
-            text: 'Heroes',
-            link: '/components/heroes'
-          }
-        ]
+        text: 'Heroes',
+        link: '/heroes/'
+      },
+      {
+        text: 'Content',
+        link: '/content/'
       }
     ]
   }
